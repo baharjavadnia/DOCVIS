@@ -1,5 +1,5 @@
 * {
-    font-family: Vazirmatn;
+    font-family: 'Estedad', 'Dana','Vazirmatn';
 }
 
 body {
@@ -10,75 +10,6 @@ body {
     padding: 100px 0;
 }
 
-.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-}
-
-.carousel-caption {
-    bottom: 220px;
-    z-index: 2;
-    color: #fdefef;
-}
-
-.carousel-caption h5 {
-    font-size: 31px;
-    margin-top: 25px;
-
-}
-
-.carousel-caption p {
-    font-size: 22px;
-    margin-top: 25px;
-}
-
-.carousel-inner::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: 1;
-}
-
-.navbar-nav a {
-    font-size: 15px;
-
-}
-
-.w-100 {
-    height: 100vh;
-}
-
-@media only screen and (min-width:767px) and (max-width:991px){
-    .carousel-caption{
-        bottom: 370px;
-    }
-    .carousel-caption{
-        bottom: 125px;
-    }
-    .carousel-caption h5{
-        padding: 10px 15px;
-        font-size: 15px;
-    }
-}
-
-/* Responsive css with media query */
-
-@media only screen and (max-width:767px) {
-    .navbar-nav {
-        text-align: center;
-    }
-    .carousel-caption{
-        bottom: 125px;
-    }
-    .carousel-caption h5{
-        padding: 10px 15px;
-        font-size: 15px;
-    }
-}
 
 .about-text{
     direction: rtl;
@@ -87,7 +18,7 @@ body {
 .card{
     background-color: rgb(101, 140, 213);
     width: 300px;
-    height: 400px;
+    height: 350px;
     border-radius: 10px;
 
 
@@ -100,13 +31,13 @@ margin-top: 5px;
 
 .load{
     color: rgb(240, 244, 251) ;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .cbtn{
     background-color: rgb(78, 111, 172) ;
     border: none; 
-    margin-top: 5px;
+    margin-top: 1px;
     width: 200px;
     height: 50px;
     border-radius: 5px;
@@ -116,5 +47,37 @@ margin-top: 5px;
 .card-img-top{
     width: 250px;
     height: 150px;
-    margin-top: 10px;
+    margin-top: 5px;
+    
 }
+.ccard-img-top{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10px 10px 0 0;
+    margin-top: 5px;
+    align-self: center;
+}
+.category{
+    .btn{
+        position: absolute;
+        align-self: center;
+        background-color: rgb(2, 60, 108);
+        border: none;
+        border-radius: 20px ;
+        margin: 0;
+        height: 2.5rem;
+        width: 7rem;
+    }
+    .card{
+        background-color:rgb(220, 230, 248) ;
+        width: 9rem;
+        height: 9rem;
+        border-radius: 20px;
+        border-color: rgb(102, 147, 186) ;
+        border-style: dashed;
+}
+}
+
+
+
+
