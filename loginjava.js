@@ -33,7 +33,8 @@ submitButton.addEventListener('click', function() {
 
       // Break out of the loop
       break;
-    } else {
+    } 
+    else {
       // Change the submit button text to "Enter"
       submitButton.innerHTML = 'ورود';
 
@@ -54,7 +55,8 @@ submitButton.addEventListener('click', function() {
           countdownTimer.innerHTML = 'کد تایید را دریافت نکردید؟ <a href="#">ارسال مجدد</a>';
           interval = window.setInterval(interval, 4000);
 
-        } else {
+        } 
+        else {
           // Update the countdown timer
           countdownTimer.innerHTML = 'زمان باقی مانده : ' + timeLeft;
           timeLeft -= 1;
@@ -62,7 +64,7 @@ submitButton.addEventListener('click', function() {
       }, 1000);
       
 
-      // Break out of the loop
+      // Break out of the countdownTimer loop
       break;
     }
   }
