@@ -1,3 +1,4 @@
+// starting the js
 // Get the submit button element
 const submitButton = document.getElementById('submit-button');
 
