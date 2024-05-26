@@ -4,6 +4,7 @@
 
 body {
     background: rgb(215, 221, 233);
+<<<<<<< HEAD
 }
 
 .logo{
@@ -15,6 +16,13 @@ body {
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
+=======
+
+}
+
+.section-padding {
+    padding: 80px 0;
+>>>>>>> origin/master
 }
 
 
@@ -23,6 +31,7 @@ body {
     text-align: right;
 }
 
+<<<<<<< HEAD
 .btn-primary{
     float: left;
     margin-top: 10px;
@@ -71,30 +80,45 @@ body {
   }
   
 
+=======
+>>>>>>> origin/master
 .card {
     background-color: rgb(101, 140, 213);
     width: 300px;
     height: 350px;
     border-radius: 20px;
+<<<<<<< HEAD
     border: none;
+=======
+
+
+>>>>>>> origin/master
 }
 
 .card-title {
     color: rgb(240, 244, 251);
+<<<<<<< HEAD
     margin-top: 10px;
     font-size: 20px;
     text-shadow: darkgrey;
+=======
+    margin-top: 5px;
+>>>>>>> origin/master
 }
 
 .load {
     color: rgb(240, 244, 251);
     margin-top: 10px;
+<<<<<<< HEAD
     font-size: 15px;
+=======
+>>>>>>> origin/master
 }
 
 .cbtn {
     background-color: rgb(78, 111, 172);
     border: none;
+<<<<<<< HEAD
     margin-top: 7px;
     margin-bottom: 4px;
     width: 170px;
@@ -115,6 +139,27 @@ body {
     height: 3rem;
     border-radius: 10px 10px 0 0;
     margin-top: 20px;
+=======
+    margin-top: 1px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+
+}
+
+.card-img-top {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.ccard-img-top {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 10px 10px 0 0;
+    margin-top: 5px;
+>>>>>>> origin/master
     align-self: center;
 }
 
@@ -124,6 +169,7 @@ body {
     }
 
     .btn {
+<<<<<<< HEAD
         /* position: absolute; */
         align-self: center;
         background-color: rgb(60, 132, 191);
@@ -132,15 +178,28 @@ body {
         /* margin: 0; */
         margin-left: 6px;
         margin-bottom: 2px;
+=======
+        position: absolute;
+        align-self: center;
+        background-color: rgb(2, 60, 108);
+        border: none;
+        border-radius: 20px;
+        margin: 0;
+>>>>>>> origin/master
         height: 2.5rem;
         width: 7rem;
     }
 
     .card {
         background-color: rgb(220, 230, 248);
+<<<<<<< HEAD
         width: 10rem;
         height: 10rem;
         gap: 5px;
+=======
+        width: 9rem;
+        height: 9rem;
+>>>>>>> origin/master
         border-radius: 20px;
         border-color: rgb(102, 147, 186);
         border-style: dashed;
@@ -148,12 +207,17 @@ body {
 }
 
 .college {
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
     .container {
         align-items: center;
         width: 2500px;
     }
 }
 
+<<<<<<< HEAD
 .header img {
     width: 100%;
     height: 750px;
@@ -166,6 +230,21 @@ body {
     z-index: 3;
     font-size: 90px;
     transform: translateY(20px);
+=======
+header img {
+    width: 100%;
+    height: 750px;
+    float: left;
+    opacity: 70%;
+    margin-top: 5px;
+    z-index: 2;
+
+}
+
+header h1 {
+    z-index: 3;
+    font-size: 100px;
+>>>>>>> origin/master
 }
 
 .article {
@@ -191,6 +270,10 @@ body {
             border-width: 3px;
             border-color: rgb(78, 111, 172);
             background-color: rgb(215, 221, 233);
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
         }
 
         .load {
@@ -198,6 +281,10 @@ body {
             margin-right: 150px;
             color: black;
             margin-top: 25px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
         }
 
         .cbtn {
@@ -205,27 +292,42 @@ body {
             margin-top: 10px;
             width: 350px;
             margin-bottom: 1px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
         }
     }
 }
 
 .btn-group {
+<<<<<<< HEAD
     height: 20px;
     width: 20px;
     margin-bottom: 30px;
     margin-left: 200px;   
+=======
+    width: 100%;
+    height: 80px;
+    margin-bottom: 50px;
+>>>>>>> origin/master
 }
 
 .header {
     height: 530px;
     background-size: 100%;
     margin-top: 95px;
+<<<<<<< HEAD
     /* margin-bottom: 5px; */
+=======
+    margin-bottom: 10px;
+>>>>>>> origin/master
     text-align: center;
     color: white;
     font-size: 60px;
     background-image: url(https://stemri.com/ap/wp-content/uploads/2019/05/Medical-Header.jpg);
     background-repeat: no-repeat;
+<<<<<<< HEAD
     background-size: 100%
 }
 
@@ -241,10 +343,20 @@ body {
     }
 
     .btn {
+=======
+}
+.search-box{
+.d-flex{
+
+ justify-content: center;
+}
+    .btn{
+>>>>>>> origin/master
         background-color: rgb(0, 65, 77);
         width: 400px;
         border: none;
     }
+<<<<<<< HEAD
 
     width: 900px;
     margin-top: 40px;
@@ -257,3 +369,14 @@ body {
 footer {
     background-color:rgb(215, 221, 233);
   }
+=======
+    width: 900px;
+    margin-top: 40px;
+}
+.DocVis{
+    font-size: 150px;
+    color: rgb(225, 233, 250);
+
+
+}
+>>>>>>> origin/master
