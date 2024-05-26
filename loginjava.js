@@ -8,10 +8,6 @@ const telInputs = document.querySelectorAll('input[type="tel"]');
 const countdownTimer = document.createElement('div');
 countdownTimer.classList.add('countdownTimer');
 
-// Set the countdown timer color and text alignment
-// countdownTimer.style.color = 'gray';
-// countdownTimer.style.textAlign = 'center';
-
 // Add the countdown timer to the DOM
 submitButton.parentNode.insertBefore(countdownTimer, submitButton.nextSibling);
 

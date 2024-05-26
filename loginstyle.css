@@ -6,7 +6,7 @@ body {
 .text-color {
   color: #3860b2;
 }
-/* Card CSS */
+
 .card {
   width: 350px;
   padding: 10px;
@@ -16,7 +16,6 @@ body {
   position: relative;
   padding: 10px;
 }
-/* /CARD CSS */
 
 .container {
   height: 100vh;
