@@ -91,7 +91,7 @@ submitButton.addEventListener('click', function() {
 // Define the interval variable outside of the event listeners
 let interval;
 
-// Add an event listener to the "ارسال مجدد" link
+// Add an event listener to the "ارسال مجدد" link so that it recognizes it
 document.querySelector('a[href="#"]').addEventListener('click', function(e) {
   e.preventDefault();
 
