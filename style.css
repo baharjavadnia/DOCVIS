@@ -7,11 +7,17 @@ body {
 }
 
 .logo{
-    float: right;
+    transform: translate(950px,5px);
+
+}
+
+.nav-item{
+    transform: translate(-160px,2px);
+    font-size: 18px;
 }
 
 .divider{
-    margin-top: 90px;
+    margin-top: 0px;
     margin-bottom: 2px;
 }
 
@@ -22,10 +28,41 @@ body {
     margin-right: auto;
 }
 
+.section-header{
+    transform: translate(20px,-16px);
+    color: #474747;
+}
+
+.tozih{
+    font-size: large;
+    margin-top: 20px;
+}
+.college-more{
+    transform: translate(-590px,30px);
+}
+
+.chevron-college{
+    transform: translate(-60px,-30px);
+    height: 25px;
+    width: 25px;
+}
+
+
+.category-more{
+    transform: translate(42px,-10px);
+}
+
+
+.chevron-category{
+    transform: translate(-30px,-30px);
+    height: 25px;
+    width: 25px;
+}
 
 .about-text {
     direction: rtl;
     text-align: right;
+    margin-right: 100px;
 }
 
 .btn-primary{
@@ -55,25 +92,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 380px;
+    margin-top: 325px;
   }
   
   .text-container {
     display: flex;
     align-items: flex-end;
-    gap: 30px;
+    gap: 50px;
   }
   
   .text-achieve {
     font-size: 24px;
     color: #474747;
     font-weight: 500;
+    transform: translate(-12px);
   }
   
   .divider-achieve {
-    width: 1px;
-    height: 70px;
+    width: 1.5px;
+    height: 75px;
     background-color: rgb(101, 140, 213);
+    opacity: 70%;
+    transform: translate(-14px);
   }
 
   .bbtn {
@@ -86,13 +126,13 @@ body {
     border-radius: 20px;
 }
   
-
 .card {
     background-color: rgb(101, 140, 213);
     width: 300px;
     height: 350px;
     border-radius: 20px;
     border: none;
+    transform: translate(0,-100px);
 }
 
 .card-title {
@@ -125,8 +165,13 @@ body {
 }
 
 .category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0,-35px);
+    
     .container {
-        ;
+    ;
     }
 
     .btn {
@@ -135,7 +180,6 @@ body {
         background-color: rgb(60, 132, 191);
         border: none;
         border-radius: 20px;
-        /* margin: 0; */
         margin-left: 6px;
         margin-bottom: 2px;
         height: 2.5rem;
@@ -146,10 +190,13 @@ body {
         background-color: rgb(220, 230, 248);
         width: 10rem;
         height: 10rem;
-        gap: 5px;
+        row-gap: 4px;
+        column-gap: 10px;
         border-radius: 20px;
         border-color: rgb(102, 147, 186);
         border-style: dashed;
+        border-width: 2px;
+        transform: translate(17px,-25px);
     }
 }
 
@@ -171,11 +218,17 @@ body {
 .header h1 {
     z-index: 3;
     font-size: 90px;
-    transform: translateY(20px);
+    transform: translate(0,50px)
+}
+
+.header-comment{
+    transform: translate(0,80px);
 }
 
 .article {
+    transform: translate(0,80px);
     .carousel {
+        transform: translate(0,-10px);
         .button {
             color: rgb(2, 60, 108);
         }
@@ -191,6 +244,7 @@ body {
             color: rgb(2, 60, 108);
             font-weight: 600;
             margin-top: 20px;
+            transform: translate(0,-5px);
         }
 
         .card {
@@ -200,26 +254,29 @@ body {
             border-width: 2px;
             border-color: rgb(78, 111, 172);
             background-color: rgb(215, 221, 233);
+            transform: translate(0,-20px);
         }
 
         .load {
-            margin-left: 220px;
-            margin-right: 220px;
+            margin-left: 270px;
+            margin-right: 270px;
             color: rgb(41, 41, 41);
             margin-top: 14px;
-            margin-bottom: 15px;
-            text-align: right;
+            margin-bottom: 20px;
+            text-align: justify;
+            text-align-last: right;
             font-size: medium;
         }
 
         .cbtn {
-            background-color: rgb(2, 60, 108);
+            background-color: rgb(78, 111, 172);
             margin-top: 9px;
             width: 320px;
             margin-bottom: 15px;
             border: none;
             height: 40px;
             border-radius: 20px;
+            transform: translate(0,-10px);
         }
     }
 }
@@ -233,7 +290,6 @@ body {
 
 .header {
     height: 530px;
-    background-size: 100%;
     margin-top: 95px;
     text-align: center;
     color: white;
@@ -241,6 +297,12 @@ body {
     background-image: url(https://stemri.com/ap/wp-content/uploads/2019/05/Medical-Header.jpg);
     background-repeat: no-repeat;
     background-size: 100%
+}
+
+
+.DocVis {
+    font-size: 100px;
+    color: rgb(225, 233, 250);
 }
 
 .search-box {
@@ -261,17 +323,14 @@ body {
     }
 
     width: 900px;
-    margin-top: 40px;
-}
-
-.DocVis {
-    font-size: 150px;
-    color: rgb(225, 233, 250);
+    margin-top: 30px;
 }
 footer {
-    background-color:rgb(215, 221, 233);
+    background-color:#f5f5f5;
+    text-align: right;
   }
 
   .about-text{
     margin-top: 1px;
+    transform: translate(500px,90px);
   }
