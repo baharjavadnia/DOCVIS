@@ -6,57 +6,111 @@ body {
     background: rgb(215, 221, 233);
 }
 
-.logo{
-    transform: translate(950px,5px);
+.logo {
+    transform: translate(950px, 5px);
 
 }
 
-.nav-item{
-    transform: translate(-160px,2px);
+/* Navbar */
+.nav-item {
+    transform: translate(-160px, 2px);
     font-size: 18px;
 }
 
-.divider{
+/* /Navbar */
+
+
+/* .divider{
     margin-top: 0px;
     margin-bottom: 2px;
-}
+} */
 
 .section-padding {
-    padding: 70px 0;
+    padding: 60px 0;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
 
-.section-header{
-    transform: translate(20px,-16px);
+.section-header {
     color: #474747;
+    z-index: 2;
+    text-align: right;
+    transform: translate(0,30px);
 }
 
-.tozih{
-    font-size: large;
+.college-title{
+font-weight: 600;
+margin-right: 20px;
+}
+
+.tozih {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.college-more {
+    text-align: left;
+    margin-left: 30px;
+    z-index: 3;
+    transform: translate(0,-40px);
+}
+
+.college-more a {
+    text-decoration: none;
+    z-index: 3;
+}
+
+.category-more a {
+    text-decoration: none;
+    z-index: 3;
+}
+
+.chevron-college {
+    text-align: left;
+    transform: translate(-30px, -30px);
+    height: 25px;
+    width: 25px;
+    z-index: 3;
+}
+
+.category-title{
+    color: #474747;
+    z-index: 2;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: 600;
+    transform: translate(0,-140px);
+    
+}
+
+.category-tozih{
+    font-size: 16px;
     margin-top: 20px;
-}
-.college-more{
-    transform: translate(-590px,30px);
+    text-align: right;
+    margin-right: 20px;
+    transform: translateY(-140px);
 }
 
-.chevron-college{
-    transform: translate(-60px,-30px);
+
+.category-more {
+    text-align: left;
+    margin-left: 50px;
+    transform: translate(0,-175px);
+    z-index: 3;
+}
+
+.category .row{
+    transform: translateY(-150px);
+    row-gap: 15px;
+}
+
+.chevron-category {
+    transform: translate(-30px, -30px);
     height: 25px;
     width: 25px;
-}
-
-
-.category-more{
-    transform: translate(42px,-10px);
-}
-
-
-.chevron-category{
-    transform: translate(-30px,-30px);
-    height: 25px;
-    width: 25px;
+    z-index: 3;
 }
 
 .about-text {
@@ -65,14 +119,14 @@ body {
     margin-right: 100px;
 }
 
-.btn-primary{
+.btn-primary {
     float: left;
     margin-top: 10px;
     border-color: rgb(101, 140, 213);
 }
 
 
-.btn-light{
+.btn-light {
     float: left;
     margin-top: 10px;
 }
@@ -82,9 +136,10 @@ body {
     height: 60px;
     border-radius: 20px;
     text-align: center;
+    color: rgb(58, 84, 131);
 }
 
-.form-control{
+.form-control {
     border-radius: 20px;
 }
 
@@ -93,30 +148,30 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 325px;
-  }
-  
-  .text-container {
+}
+
+.text-container {
     display: flex;
     align-items: flex-end;
     gap: 50px;
-  }
-  
-  .text-achieve {
+}
+
+.text-achieve {
     font-size: 24px;
     color: #474747;
     font-weight: 500;
     transform: translate(-12px);
-  }
-  
-  .divider-achieve {
+}
+
+.divider-achieve {
     width: 1.5px;
     height: 75px;
-    background-color: rgb(101, 140, 213);
+    background-color: rgb(78, 111, 172);
     opacity: 70%;
     transform: translate(-14px);
-  }
+}
 
-  .bbtn {
+.bbtn {
     background-color: rgb(78, 111, 172);
     border: none;
     margin-top: 7px;
@@ -125,19 +180,22 @@ body {
     height: 40px;
     border-radius: 20px;
 }
-  
-.card {
+.bbtn:hover{
+    background:rgb(58, 84, 131) ;
+}
+
+.card-kh {
     background-color: rgb(101, 140, 213);
     width: 300px;
     height: 350px;
     border-radius: 20px;
     border: none;
-    transform: translate(0,-100px);
+    transform: translate(0, -110px);
 }
 
 .card-title {
     color: rgb(240, 244, 251);
-    margin-top: 10px;
+    transform: translate(0,25px);
     font-size: 20px;
     text-shadow: darkgrey;
 }
@@ -149,9 +207,9 @@ body {
 }
 
 .card-img-top {
-    width: 200px;
-    height: 100px;
-    margin-top: 20px;
+    width: 210px;
+    height: 120px;
+    margin-top: 48px;
     margin-bottom: 10px;
     border-radius: 20px 20px 20px 20px;
 }
@@ -168,14 +226,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translate(0,-35px);
-    
-    .container {
-    ;
-    }
+}
 
-    .btn {
-        /* position: absolute; */
+    .category .btn {
         align-self: center;
         background-color: rgb(60, 132, 191);
         border: none;
@@ -186,31 +239,34 @@ body {
         width: 7rem;
     }
 
-    .card {
+    .category .card {
         background-color: rgb(220, 230, 248);
         width: 10rem;
         height: 10rem;
         row-gap: 4px;
         column-gap: 10px;
         border-radius: 20px;
-        border-color: rgb(102, 147, 186);
+        border-color: rgb(101, 140, 213);
         border-style: dashed;
         border-width: 2px;
-        transform: translate(17px,-25px);
+        transform: translate(17px, -25px);
     }
-}
 
 .college {
     .container {
         align-items: center;
         width: 2500px;
     }
+    .row{
+        align-self: center;
+        transform: translate(0,-50px);
+    }
 }
 
 .header img {
     width: 100%;
     height: 750px;
-    opacity: 50%;
+    opacity: 0.5;
     margin-top: 5px;
     z-index: 2;
 }
@@ -218,74 +274,79 @@ body {
 .header h1 {
     z-index: 3;
     font-size: 90px;
-    transform: translate(0,50px)
+    transform: translate(0, 50px)
 }
 
-.header-comment{
-    transform: translate(0,80px);
+.header-comment {
+    transform: translate(0, 80px);
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.article h2{
+    color: #474747;
+    z-index: 2;
+    text-align: right;
+    font-weight: 600;
 }
 
 .article {
-    transform: translate(0,80px);
-    .carousel {
-        transform: translate(0,-10px);
-        .button {
-            color: rgb(2, 60, 108);
-        }
-
-        .card-img-top {
-            width: 320px;
-            height: 170px;
-            border-radius: 20px;
-            margin-top: 20px;
-        }
-
-        .card-title {
-            color: rgb(2, 60, 108);
-            font-weight: 600;
-            margin-top: 20px;
-            transform: translate(0,-5px);
-        }
-
-        .card {
-            width: 100%;
-            height: 450px;
-            border-style: dashed;
-            border-width: 2px;
-            border-color: rgb(78, 111, 172);
-            background-color: rgb(215, 221, 233);
-            transform: translate(0,-20px);
-        }
-
-        .load {
-            margin-left: 270px;
-            margin-right: 270px;
-            color: rgb(41, 41, 41);
-            margin-top: 14px;
-            margin-bottom: 20px;
-            text-align: justify;
-            text-align-last: right;
-            font-size: medium;
-        }
-
-        .cbtn {
-            background-color: rgb(78, 111, 172);
-            margin-top: 9px;
-            width: 320px;
-            margin-bottom: 15px;
-            border: none;
-            height: 40px;
-            border-radius: 20px;
-            transform: translate(0,-10px);
-        }
-    }
+    transform: translate(0, 100px);
 }
 
+    .article .card-title {
+        color: rgb(2, 60, 108);
+        font-weight: 600;
+        margin-top: 20px;
+        transform: translate(0, -5px);
+    }
+
+    .article .card {
+        width: 100%;
+        height: 450px;
+        border-style: dashed;
+        border-width: 2px;
+        border-color: rgb(101, 140, 213);
+        background-color: rgb(215, 221, 233);
+        transform: translate(0, -20px);
+    }
+
+    .article .load {
+        margin-left: 270px;
+        margin-right: 270px;
+        color: rgb(41, 41, 41);
+        margin-top: 14px;
+        margin-bottom: 20px;
+        text-align: justify;
+        text-align-last: right;
+        font-size: medium;
+    }
+
+    .article .cbtn {
+        background-color: rgb(78, 111, 172);
+        width: 320px;
+        border: none;
+        height: 40px;
+        border-radius: 20px;
+        transform: translateY(-15px);
+    }
+    .article .card-img-top {
+        width: 320px;
+        height: 170px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(71%) sepia(68%) saturate(3026%) hue-rotate(223deg) brightness(90%) contrast(108%);
+    }
 .btn-group {
     height: 20px;
     width: 20px;
     margin-bottom: 30px;
-    margin-left: 200px;   
+    margin-left: 200px;
 }
 
 .header {
@@ -310,6 +371,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-36%, -40%);
+
     .d-flex {
         border-radius: 20px;
         justify-content: center;
@@ -317,7 +379,7 @@ body {
     }
 
     .btn {
-        background-color: rgb(0, 65, 77);
+        background-color: rgb(26, 77, 141);
         width: 400px;
         border: none;
     }
@@ -325,12 +387,187 @@ body {
     width: 900px;
     margin-top: 30px;
 }
+
 footer {
-    background-color:#f5f5f5;
+    background-color: #f5f5f5;
     text-align: right;
+}
+
+.about-text {
+    margin-top: 1px;
+    transform: translate(500px, 90px);
+}
+
+.doc-title{
+    color: #474747;
+    z-index: 2;
+    text-align: right;
+    margin-right: 20px;
+    font-weight: 600;
+    transform: translate(0,-90px); 
+}
+.doc-tozih{
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 20px;
+    transform: translateY(-90px);
+}
+
+
+.doc-more {
+    text-align: left;
+    margin-left: 50px;
+    transform: translate(0,-135px);
+    z-index: 3;
+}
+
+.chevron-doc {
+    transform: translate(-30px, -30px);
+    height: 25px;
+    width: 25px;
+    z-index: 3;
+}
+
+.doc-more a {
+    text-decoration: none;
+}
+
+/* Doctors */
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+    transform: translateY(-160px);
+  }
+  .slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .card{
+    width: 300px;
+    height: 360px;
+    border-radius: 25px;
+    background-color:rgb(220, 230, 248);
+  }
+  .image-content,
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+  }
+  .image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+  .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(101, 140, 213);
+    border-radius: 25px 25px 0 25px;
+  }
+  .overlay::before,
+  .overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(101, 140, 213);
+  }
+  .overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: rgb(220, 230, 248);
+  }
+  .card-image{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+  }
+  .card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgb(101, 140, 213);
+  }
+  .name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #474747;
+    margin-top: 10px;
+  }
+  .description{
+    font-size: 17px;
+    color: #4f4f4f;
+    text-align: center;
+    margin-top: 5px;
   }
 
-  .about-text{
-    margin-top: 1px;
-    transform: translate(500px,90px);
+  .location {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color:#474747;
+    margin-top: 0.5px;
+}
+  .button{
+    border: none;
+    font-size: 16px;
+    color: rgb(220, 230, 248);
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin-top: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
   }
+  .button:hover{
+    background: #265DF2;
+  }
+  
+  .swiper-navBtn{
+    color: #6E93f7;
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color: #4070F4;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 35px;
+  }
+  .swiper-button-next{
+    right: 0;
+  }
+  .swiper-button-prev{
+    left: 0;
+  }
+  .swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #4070F4;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+  }
+  
+/* /Doctors  */
