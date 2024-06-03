@@ -1,0 +1,36 @@
+* {
+    font-family: 'Estedad', 'Dana', 'Vazirmatn';
+}
+
+body {
+    background: rgb(215, 221, 233);
+
+}
+.doccard{
+    .container{
+        position: center;
+    }
+    margin-top: 80px;
+    .card{
+        width: 600px;
+        height: 400px;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    .card-title{
+        direction: rtl;
+        margin: 25px;
+    }
+    .card-text{
+        direction: rtl;
+        margin: 25px;
+    }
+}
+.card-img-top{
+    width: 120px;
+    height: 120px;
+    border-radius:0px;
+    
+}
