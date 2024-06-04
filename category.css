@@ -1,0 +1,89 @@
+* {
+    font-family: 'Estedad', 'Dana', 'Vazirmatn';
+}
+
+body {
+    background: rgb(215, 221, 233);
+
+}
+
+.doccard {
+    margin-top: 60px;
+
+    .card {
+        .btn {
+            background-color: rgb(2, 60, 108);
+        }
+
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        direction: rtl;
+
+        .btn {
+            margin-right: 10px;
+            width: 25%;
+        }
+    }
+
+    .card-title {
+        margin-right: 25px;
+        margin-top: 25px;
+    }
+
+    .specialist {
+        margin-right: 25px;
+    }
+
+    .card-text {
+        margin-right: 20px;
+    }
+}
+
+.card-img-top {
+    width: 20%;
+    height: 30%;
+    border-radius: 0px;
+    margin-right: 40px;
+    margin-top: 5px;
+
+
+}
+
+.title {
+    margin-top: 100px;
+    direction: rtl;
+}
+
+.search-by {
+    direction: rtl;
+
+    .container {
+        background-color: rgb(168, 186, 219);
+        padding: 10px;
+        border-radius: 10px;
+
+    }
+
+    .btn {
+        background-color: rgb(2, 60, 108);
+        width: 15%;
+    }
+}
+
+.sort-by {
+    direction: rtl;
+
+    .container {
+        background-color: rgb(168, 186, 219);
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .btn {
+        background-color: rgb(2, 60, 108);
+        width: 15%;
+    }
+}
