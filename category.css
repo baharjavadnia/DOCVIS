@@ -7,7 +7,7 @@ body {
 
 }
 
-.doccard {
+/* .doccard {
     margin-top: 60px;
 
     .card {
@@ -50,10 +50,11 @@ body {
     margin-top: 5px;
 
 
-}
+} */
 
 .title {
     margin-top: 100px;
+    margin-right: 1rem;
     direction: rtl;
 }
 
@@ -61,15 +62,14 @@ body {
     direction: rtl;
 
     .container {
-        background-color: rgb(168, 186, 219);
         padding: 10px;
         border-radius: 10px;
-
     }
 
     .btn {
         background-color: rgb(2, 60, 108);
-        width: 15%;
+        width: 30%;
+        margin-right: 0.3rem;
     }
 }
 
@@ -77,13 +77,31 @@ body {
     direction: rtl;
 
     .container {
-        background-color: rgb(168, 186, 219);
         padding: 10px;
         border-radius: 10px;
+        margin-top: 1rem;
     }
 
     .btn {
         background-color: rgb(2, 60, 108);
-        width: 15%;
+        width: 30%;
+        margin-right: 0.3rem;
     }
+}
+
+.btn{
+    background-color: rgb(2, 60, 108);
+    border: none;
+}
+.ratings i {
+    color: rgb(226, 211, 0)
+}
+.card:hover {
+    -webkit-box-shadow: 3px 5px 17px -4px #777777;
+    box-shadow: 3px 5px 17px -4px #777777
+}
+.address{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    direction: rtl;
 }

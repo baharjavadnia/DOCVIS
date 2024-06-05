@@ -48,7 +48,7 @@
   <!-- end title -->
 
   <!-- search by -->
-  <div class="search-by">
+  <!-- <div class="search-by">
     <div class="container mt-5">
       <p>جستجوی پزشکان بر اساس:</p>
       <a class="btn text-light" href="#" role="button">شهرها</a>
@@ -56,57 +56,199 @@
       <button class="btn text-light" type="submit">نوع بیمه</button>
       <button class="btn text-light" type="submit">جنسیت</button>
     </div>
+  </div> -->
+  <div class="search-by">
+    <div class="container mt-5">
+      <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          جستجوی پزشکان بر اساس
+        </a>
+
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">پیش‌فرض</a></li>
+          <li><a class="dropdown-item" href="#">شهرها</a></li>
+          <li><a class="dropdown-item" href="#">تخصص‌ها</a></li>
+          <li><a class="dropdown-item" href="#">جنسیت پزشک</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
   <!-- end search by -->
 
   <!-- sort by -->
-  <div class="sort-by">
-    <div class="container mt-5">
+  <!-- <div class="sort-by">
+    <div class="container mt-3">
       <p>مرتب سازی بر اساس:</p>
       <a class="btn text-light" href="#" role="button">پیش فرض</a>
       <button class="btn text-light" type="submit">محبوب‌ترین</button>
       <button class="btn text-light" type="submit">نزدیک‌ترین نوبت</button>
       <button class="btn text-light" type="submit">بیش‌ترین نوبت موفق</button>
     </div>
+  </div> -->
+  <div class="sort-by">
+    <div class="container mt-3">
+      <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          مرتب‌سازی بر اساس
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">پیش‌فرض</a></li>
+          <li><a class="dropdown-item" href="#">محبوب‌ترین</a></li>
+          <li><a class="dropdown-item" href="#">نزدیک‌ترین نوبت آزاد</a></li>
+          <li><a class="dropdown-item" href="#">بیش‌ترین نوبت موفق</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
   <!-- sort by-end -->
 
   <!-- doctor card -->
-  <section>
-    <div class="doccard">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-12 col-lg-6">
-            <div class="card">
-              <h5 class="card-title">دکتر بهروز مقدادی</h5>
-              <h6 class="specialist text-light">تخصص کودکان و نوزادان</h6>
-              <img
-                src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/cwLjGvJuCLLs1gwidcB4jxteoW3NOT4sSuz4Lvyc.jpg"
-                class="card-img-top" alt="عکس">
-              <div class="card-body">
-                <p class="card-text">تهران، بلوار شهران شمالی، بالاتر از فلکه دوم شهران، بعد از مسجد امام علی، ساختمان داروخانه شبانه روزی دکتر کریمان، واحد 1</p>
-                <a href="#" class="btn text-light">نوبت بگیرید</a>
-              </div>
-            </div>
+  <div class="container mt-3 mb-5">
+    <div class="row g-2">
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/cwLjGvJuCLLs1gwidcB4jxteoW3NOT4sSuz4Lvyc.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر بهروز مقدادی</h5> <small>متخصص کودکان و نوزادان</small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5721نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
           </div>
-          <div class="col-12 col-md-12 col-lg-6">
-            <div class="card">
-              <h5 class="card-title">دکتر علیرضا ناطقیان</h5>
-              <h6 class="specialist text-light">تخصص کودکان و نوزادان</h6>
-              <img
-                src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/0cV9dCHaWXyK2pZY6EWNctDwuScq5TKexDxMN4IG.jpg"
-                class="card-img-top" alt="عکس">
-              <div class="card-body">
-                <p class="card-text">تهران، تقاطع شریعتی و همت، به سمت پاسداران، 50 متر بعد از زیرگذر پل هوایی، کوچه دشتسان یکم، پلاک 6، طبقه 2</p>
-                <a href="#" class="btn text-light">نوبت بگیرید</a>
-              </div>
-            </div>
+          <div class="address">
+            <p>آدرس: تهران، بلوار شهران شمالی، بالاتر از فلکه دوم شهران، بعد از مسجد امام علی، ساختمان
+              داروخانه شبانه روزی دکتر کریمان، واحد 1 </p>
           </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">نوبت بگیرید</button> </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/cwLjGvJuCLLs1gwidcB4jxteoW3NOT4sSuz4Lvyc.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر بهروز مقدادی</h5> <small>متخصص کودکان و نوزادان</small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5721نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: تهران، بلوار شهران شمالی، بالاتر از فلکه دوم شهران، بعد از مسجد امام علی، ساختمان
+              داروخانه شبانه روزی دکتر کریمان، واحد 1 </p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">نوبت بگیرید</button> </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/cwLjGvJuCLLs1gwidcB4jxteoW3NOT4sSuz4Lvyc.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر بهروز مقدادی</h5> <small>متخصص کودکان و نوزادان</small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5721نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: تهران، بلوار شهران شمالی، بالاتر از فلکه دوم شهران، بعد از مسجد امام علی، ساختمان
+              داروخانه شبانه روزی دکتر کریمان، واحد 1 </p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">نوبت بگیرید</button> </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/cwLjGvJuCLLs1gwidcB4jxteoW3NOT4sSuz4Lvyc.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر بهروز مقدادی</h5> <small>متخصص کودکان و نوزادان</small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5721نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: تهران، بلوار شهران شمالی، بالاتر از فلکه دوم شهران، بعد از مسجد امام علی، ساختمان
+              داروخانه شبانه روزی دکتر کریمان، واحد 1 </p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">نوبت بگیرید</button> </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/cwLjGvJuCLLs1gwidcB4jxteoW3NOT4sSuz4Lvyc.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر بهروز مقدادی</h5> <small>متخصص کودکان و نوزادان</small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5721نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: تهران، بلوار شهران شمالی، بالاتر از فلکه دوم شهران، بعد از مسجد امام علی، ساختمان
+              داروخانه شبانه روزی دکتر کریمان، واحد 1 </p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">نوبت بگیرید</button> </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/cwLjGvJuCLLs1gwidcB4jxteoW3NOT4sSuz4Lvyc.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر بهروز مقدادی</h5> <small>متخصص کودکان و نوزادان</small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5721نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: تهران، بلوار شهران شمالی، بالاتر از فلکه دوم شهران، بعد از مسجد امام علی، ساختمان
+              داروخانه شبانه روزی دکتر کریمان، واحد 1 </p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <button class="btn btn-success text-uppercase">نوبت بگیرید</button> </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
   <!-- doctor card -->
+  <nav aria-label="Page navigation example">
+    <div class="container">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  </nav>
 
   <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js">
 
