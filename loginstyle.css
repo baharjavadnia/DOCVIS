@@ -1,0 +1,68 @@
+/* starting the css */
+body {
+  background: #eee;
+  font-family: 'Estedad', 'Dana', 'Vazirmatn';
+}
+
+.text-color {
+  color: #3860b2;
+}
+
+.card {
+  width: 350px;
+  padding: 10px;
+  border-radius: 20px;
+  background: #fff;
+  border: none;
+  position: relative;
+  padding: 10px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-text {
+  color: #585858b8;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.countdownTimer {
+  margin-top: 25px;
+  text-align: center;
+  color: gray;
+}
+
+.form-control:focus {
+  color: #bbb8b8;
+  background-color: #fff;
+  border-color: #b5b5b5;
+  box-shadow: none;
+  border-width: 2px;
+}
+
+
+input[type="tel"]::placeholder {
+  color: lightgray;
+}
+
+input[type="text"]::placeholder {
+  color: lightgray;
+}
+
+input[type="tel"] {
+  color: rgb(69, 65, 65) !important;
+}
+
+input[type="text"] {
+  color: rgb(69, 65, 65) !important;
+}
+
+.cursor {
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OTP Login</title>
+        <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="loginstyle.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <div class="d-flex justify-content-center align-items-center container">
+            <div class="card py-5 px-3">
+                <h3 class="text-primary d-flex justify-content-center">ورود به داک‌ویز</h3>
+                <span class="mobile-text mt-3">برای استفاده از خدمات داک‌ویز، نام و شماره موبایل خود را وارد کنید</span>
+                <!-- <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1"><i class='bx bxs-user'></i></span>
+                    </div>
+                    <input type="text" class="form-control w-100 mt-4 text-end" placeholder="نام و نام خانوادگی" autofocus="" aria-label="Username" aria-describedby="basic-addon1"> -->
+                    <!-- Name iput -->
+                    <div class="input-group mb-3">
+                    <input type="text" class="form-control w-100 mt-4 text-end" placeholder="نام و نام خانوادگی" autofocus="">
+                </div>
+                <!-- <div class="input-group mb-3">
+                    <div class="input-group-prepend d-flex flex-row mt-1">
+                      <span class="input-group-text" id="basic-addon1"><i class='bx bxs-phone'></i></span>
+                    </div>
+                    <input type="text" class="form-control w-100 mt-4 text-end" placeholder="0912*******" autofocus="" aria-label="Phone" aria-describedby="basic-addon1"> -->
+                <div class="d-flex flex-row mt-1">
+                    <input type="tel" class="form-control w-100 text-end" id="tel-input" placeholder="0912****" autofocus="">
+                </div>
+                <div id="countdowntimer"></div>
+                <button type="submit" class="btn btn-primary w-100 mt-4" id="submit-button">ارسال کد تایید</button>
+                <div class="text-center mt-5"></div>
+            </div>
+        </div>
+    </div>
+<script src="loginjava.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
+
