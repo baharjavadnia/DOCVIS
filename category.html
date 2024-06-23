@@ -39,10 +39,11 @@
       </div>
     </div>
   </nav>
+
   <!-- title -->
   <div class="container">
     <div class="title">
-      <h2>نوبت‌دهی اینترنتی پزشکان</h2>
+      <h1>نوبت‌دهی اینترنتی پزشکان</h1>
     </div>
   </div>
   <!-- end title -->
@@ -50,63 +51,332 @@
   <!-- search by -->
   <div class="search-by">
     <div class="container mt-5">
-      <p>جستجوی پزشکان بر اساس:</p>
-      <a class="btn text-light" href="#" role="button">شهرها</a>
-      <button class="btn text-light" type="submit">تخصص‌ها</button>
-      <button class="btn text-light" type="submit">نوع بیمه</button>
-      <button class="btn text-light" type="submit">جنسیت</button>
+      <p>جستجوی پزشکان بر اساس:
+        <select>
+          <option value="option1">پیش فرض</option>
+          <option value="option1">شهرها </option>
+          <option value="option1"> تخصص‌ها</option>
+          <option value="option1"> جنسیت پزشک</option>
+        </select>
+      </p>
     </div>
   </div>
   <!-- end search by -->
 
   <!-- sort by -->
   <div class="sort-by">
-    <div class="container mt-5">
-      <p>مرتب سازی بر اساس:</p>
-      <a class="btn text-light" href="#" role="button">پیش فرض</a>
-      <button class="btn text-light" type="submit">محبوب‌ترین</button>
-      <button class="btn text-light" type="submit">نزدیک‌ترین نوبت</button>
-      <button class="btn text-light" type="submit">بیش‌ترین نوبت موفق</button>
+    <div class="container">
+      <p>مرتب‌سازی براساس:
+        <select>
+          <option value="option1">پیش فرض</option>
+          <option value="option1">محبوب‌ترین </option>
+          <option value="option1"> نزدیک‌ترین نوبت آزاد</option>
+          <option value="option1"> بیشترین نوبت موفق </option>
+        </select>
+      </p>
     </div>
   </div>
   <!-- sort by-end -->
 
   <!-- doctor card -->
-  <section>
-    <div class="doccard">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-12 col-lg-6">
-            <div class="card">
-              <h5 class="card-title">دکتر بهروز مقدادی</h5>
-              <h6 class="specialist text-light">تخصص کودکان و نوزادان</h6>
-              <img
-                src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/cwLjGvJuCLLs1gwidcB4jxteoW3NOT4sSuz4Lvyc.jpg"
-                class="card-img-top" alt="عکس">
-              <div class="card-body">
-                <p class="card-text">تهران، بلوار شهران شمالی، بالاتر از فلکه دوم شهران، بعد از مسجد امام علی، ساختمان داروخانه شبانه روزی دکتر کریمان، واحد 1</p>
-                <a href="#" class="btn text-light">نوبت بگیرید</a>
-              </div>
-            </div>
+  <div class="container mt-3 mb-5">
+    <div class="row g-2">
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/cwLjGvJuCLLs1gwidcB4jxteoW3NOT4sSuz4Lvyc.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر بهروز مقدادی</h5> <small>متخصص کودکان و نوزادان</small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5721نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
           </div>
-          <div class="col-12 col-md-12 col-lg-6">
-            <div class="card">
-              <h5 class="card-title">دکتر علیرضا ناطقیان</h5>
-              <h6 class="specialist text-light">تخصص کودکان و نوزادان</h6>
-              <img
-                src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/0cV9dCHaWXyK2pZY6EWNctDwuScq5TKexDxMN4IG.jpg"
-                class="card-img-top" alt="عکس">
-              <div class="card-body">
-                <p class="card-text">تهران، تقاطع شریعتی و همت، به سمت پاسداران، 50 متر بعد از زیرگذر پل هوایی، کوچه دشتسان یکم، پلاک 6، طبقه 2</p>
-                <a href="#" class="btn text-light">نوبت بگیرید</a>
-              </div>
-            </div>
+          <div class="address">
+            <p>آدرس: تهران، بلوار شهران شمالی، بالاتر از فلکه دوم شهران، بعد از مسجد امام علی، ساختمان
+              داروخانه شبانه روزی دکتر کریمان، واحد 1 </p>
           </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <a href="#"><button class="btn btn-success text-uppercase">نوبت بگیرید</button></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/kmyjKnQYigp1noolHTO2HkbDpbJK3SnbbpjAJVz6.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر بهنام مقدادی</h5> <small>متخصص کودکان و نوزادان</small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">3795نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: تهران، خیابان فرجام غربی، تقاطع خیابان فرجام و شهید آیت (میدان صدم)، ساختمان پزشکان نگین، واحد 3</p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <a href="#"><button class="btn btn-success text-uppercase">نوبت بگیرید</button></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:150:150:0/gravity:sm/plain/s3://drto/avatar/doctor/2023/4/hyoYGR57yG9Z8M5QyDbDkICrliYPme2DPXtVcp9q.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر الهام آذین مهر</h5> <small>متخصص زنان و زایمان</small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5420نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: شیراز، خیابان زند ، ابتدای بیست متری سینما سعدی ( هفت تیر ) ، روبروی کوچه 10، ساختمان منا  طبقه دوم ، واحد 1 </p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <a href="#"><button class="btn btn-success text-uppercase">نوبت بگیرید</button></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:150:150:0/gravity:sm/plain/s3://drto/avatar/doctor/2022/5/MxS6wK8x4oBa8Bv0BP6suV8TOGjVnwKM1FS4B9Me.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر علیرضا اسمائیل زاده </h5> <small>کارشناس ارشد روانشناسی</small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">6478نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: مشهد، خیابان پیروزی، نبش خیابان پیروزی 66، ساختمان 160، واحد 2، مرکز مشاوره حس آرامش </p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <a href="#"><button class="btn btn-success text-uppercase">نوبت بگیرید</button></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2023/4/aL7D0xvO2mhUVCuLh27cgYzlEnK91NyE9l6BN8DS.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر زهرا عسکری </h5> <small>کارشناس مامایی</small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">3731نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: خراسان رضوی، مشهد، بلوار معلم، ابتدای  خیابان معلم 18، انتهای کوچه، ساختمان آریا، طبقه دوم، واحد 203</p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <a href="#"><button class="btn btn-success text-uppercase">نوبت بگیرید</button></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/drtLRSiXSWL2kKplhGxLu5zjMbJwbnLLxj8BvAJN.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر اعظم امینی </h5> <small>متخصص  داخلی </small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5721نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: اصفهان، از طرف حکیم نظامی ابتدای خیابان محتشم کاشانی، رو به روی MRI سپاهان، ساختمان پردیس جنوبی، طبقه 2</p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <a href="#"><button class="btn btn-success text-uppercase">نوبت بگیرید</button></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/12TlbgGpttwmSYMyGhgpAbge9NfvWij68GU9mrS9.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر کاوه کاشانی </h5> <small>متخصص  مغز و اعصاب </small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5721نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: شیراز، خیابان اردیبهشت، حدفاصل باغشاه و 20 متری، جنب اداره محیط زیست، ساختمان نیکان، طبقه چهارم، واحد 4 </p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <a href="#"><button class="btn btn-success text-uppercase">نوبت بگیرید</button></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2023/9/sBGpLAVvP5BKaNb0UzlxIDmSlWH2F0hCdPCaF1gq.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر جلیل مهربانی </h5> <small>کارشناس ارشد روانشناسی </small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5721نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: مشهد، میدان امام علی، به طرف چهارراه مخابرات، نبش امامیه 18، مرکز تخصصی مشاوره مهرآفرین</p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <a href="#"><button class="btn btn-success text-uppercase">نوبت بگیرید</button></a></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card p-2 py-3 text-center">
+          <div class="img mb-2"> <img
+              src="https://statics.doctoreto.com/preset:sharp/resize:fill:180:180:0/gravity:sm/plain/s3://drto/avatar/doctor/2021/11/HRaIxlhrEcPQaNv63D23nzwwWi7oOWKt0vP4ffDS.jpg"
+              width="70" class="rounded-circle"> </div>
+          <h5 class="mb-0">دکتر کاوه باشتی </h5> <small>متخصص  ارتوپد </small>
+          <div class="ratings mt-2"> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+              class="fa fa-star"></i> </div>
+          <small class="text-secondary">5721نظر</small>
+          <div class="position-relative">
+            <hr class="text-secondary divider">
+          </div>
+          <div class="address">
+            <p>آدرس: شیراز، خیابان قصرالدشت، بالاتر از سه راه عفیف آباد، جنب مرکز تجارت جهانی، نبش کوچه 53، ساختمان نوین، طبقه2، واحد 1 </p>
+          </div>
+          <small class="apointment text-secondary">اولین نوبت مشاوره آزاد: 11 خرداد</small>
+          <div class="mt-4 apointment"> <a href="#"><button class="btn btn-success text-uppercase">نوبت بگیرید</button></a></div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
   <!-- doctor card -->
+
+  <!-- pagination -->
+  <div class="pagination-bar">
+    <nav aria-label="Page navigation example">
+      <div class="container">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- pagination -->
+
+<!-- footer start -->
+<footer class="footer">
+  <div class="footer_top">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                  <div class="footer_widget">
+                      <div class="footer_logo">
+                          <a href="#">
+                              <img src="img/DOCVIS.png" alt="">
+                          </a>
+                      </div>
+                      <p class="footer_about">
+                          نوبت‌دهی اینترنتی و مشاوره آنلاین با پزشکان ایران <br><br>
+                          با ما در ارتباط باشید <br>
+                          info@docvis.com
+                      </p>
+                      <div class="socail_links">
+                          <ul>
+                              <li>
+                                  <a href="#">
+                                      <i class='bx bxl-telegram'></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class='bx bxl-instagram' ></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <i class='bx bxl-twitter' ></i>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+
+                  </div>
+              </div>
+              <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
+                  <div class="footer_widget">
+                      <h3 class="footer_title">
+                          تخصص‌ها
+                      </h3>
+                      <ul>
+                          <li><a href="#">عمومی</a></li>
+                          <li><a href="#">داخلی</a></li>
+                          <li><a href="#">جراحی</a></li>
+                          <li><a href="#">آزمایش</a></li>
+                          <li><a href="#">روانشناسی</a></li>
+                      </ul>
+
+bahar J, [23/06/2024 04:05 ب.ظ]
+</div>
+              </div>
+              <div class="col-xl-2 col-md-6 col-lg-2">
+                  <div class="footer_widget">
+                      <h3 class="footer_title">
+                          لینک‌های مفید
+                      </h3>
+                      <ul>
+                          <li><a href="#">ورود و ثبت‌نام بیماران</a></li>
+                          <li><a href="#">ورود پزشکان</a></li>
+                          <li><a href="#">لیست مراکز درمانی</a></li>
+                          <li><a href="#">مشاوره تلفنی</a></li>
+                          <li><a href="#">مجله سلامت</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                  <div class="footer_widget">
+                      <h3 class="footer_title">
+                          آدرس
+                      </h3>
+                      <p class="footer_address">
+                          تهران، میدان آرژانتین، خیابان بیهقی، خیابان شانزدهم شرقی، پلاک ۲۸
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copy-right_text">
+      <div class="container">
+          <div class="footer_border"></div>
+          <div class="row">
+              <div class="col-xl-12">
+                  <p class="copy_right text-center">
+                    &#169 تمامی حقوق این سایت محفوظ است &#169
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- footer end  -->
 
   <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js">
 
