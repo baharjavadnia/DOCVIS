@@ -52,7 +52,7 @@ body {
 }
 
 .ratings i {
-    color: rgb(226, 211, 0)
+    color: rgb(255, 213, 0)
 }
 .card:hover {
     -webkit-box-shadow: 3px 5px 17px -4px #777777;
@@ -280,6 +280,7 @@ body {
   
   .footer .copy-right_text .copy_right a {
     color:rgb(137, 164, 218);
+    direction: rtl;
   }
   
   
@@ -288,7 +289,6 @@ body {
   }
   
   .footer .socail_links i {
-    text-align: center;
     font-size: 28px;
     margin-top: 10px;
   }
