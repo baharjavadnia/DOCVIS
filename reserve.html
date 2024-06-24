@@ -10,26 +10,32 @@
 	<link href="reserve.css" rel="stylesheet">
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.rtl.min.css">
-	<link rel="stylesheet" href="Persian-Jalali-Calendar-Data-Picker-Plugin-With-jQuery-kamaDatepicker/dist/kamadatepicker.min.css">
+	<link rel="stylesheet"
+		href="Persian-Jalali-Calendar-Data-Picker-Plugin-With-jQuery-kamaDatepicker/dist/kamadatepicker.min.css">
 </head>
 
 <body>
 	<!-- starting the card -->
 	<div class="col-12 position-relative d-none d-lg-block">
 		<div class="back-text">
-			<h5><i class='bx bx-chevron-left'></i>بازگشت</h5>
+			<a href="category.html">
+				<h5><i class='bx bx-chevron-left'></i>بازگشت</h5>
+			</a>
 		</div>
 		<div class="container">
 			<div class="card">
 				<div class="title-row">
 					<h1 class="title">دریافت نوبت</h1>
 				</div>
+				<div class="calenderstyle">
+					<p>تاریخ موردنظر را انتخاب کنید </p>
+				</div>
 				<div class="container-dp text-right">
 					<div class="dp col-md-12 text-right" dir=rtl>
-						<input type="text" id="datepickerinput" placeholder="انتخاب تاریخ">
+						<div class="cinput"><input type="text" id="datepickerinput" placeholder="تقویم "></div>
 					</div>
 				</div>
-				<div class="form-group">
+				<!-- <div class="form-group">
 					<form>
 						<label for="times">زمان‌های موجود</label><br>
 						<div class="time-cards">
@@ -55,7 +61,103 @@
 							</div>
 						</div>
 				</div>
-				</form>
+				</form> -->
+				<div class="weekdays">
+					<p>نوبت‌های موجود برای هفته آینده</p>
+				</div>
+				<div class="week-container">
+					<div class="card">
+						<h5>جمعه</h5>
+						<p>1403/04/15</p>
+						<select>
+							<option value="option1" style="direction: rtl;"> انتخاب ساعت </option>
+							<option value="option2" style="direction: rtl;">9-10 </option>
+							<option value="option3" style="direction: rtl;">10-11 </option>
+							<option value="option4" style="direction: rtl;">14-15 </option>
+							<option value="option5" style="direction: rtl;">16:13-17</option>
+							<option value="option6" style="direction: rtl;">17-18 </option>
+							<option value="option7" style="direction: rtl;">18:30-19 </option>
+						</select>
+					</div>
+					<div class="card">
+						<h5>پنجشنبه</h5>
+						<p>1403/04/14</p>
+						<select>
+							<option value="option1" style="direction: rtl;"> انتخاب ساعت </option>
+							<option value="option2" style="direction: rtl;">9-10 </option>
+							<option value="option3" style="direction: rtl;">10-11 </option>
+							<option value="option4" style="direction: rtl;">14-15 </option>
+							<option value="option5" style="direction: rtl;">16:13-17</option>
+							<option value="option6" style="direction: rtl;">17-18 </option>
+							<option value="option7" style="direction: rtl;">18:30-19 </option>
+						</select>
+					</div>
+					<div class="card">
+						<h5>چهارشنبه</h5>
+						<p>1403/04/13</p>
+						<select>
+							<option value="option1" style="direction: rtl;"> انتخاب ساعت </option>
+							<option value="option2" style="direction: rtl;">9-10 </option>
+							<option value="option3" style="direction: rtl;">10-11 </option>
+							<option value="option4" style="direction: rtl;">14-15 </option>
+							<option value="option5" style="direction: rtl;">16:13-17</option>
+							<option value="option6" style="direction: rtl;">17-18 </option>
+							<option value="option7" style="direction: rtl;">18:30-19 </option>
+						</select>
+					</div>
+					<div class="card">
+						<h5>سه‌شنبه</h5>
+						<p>1403/04/12</p>
+						<select>
+							<option value="option1" style="direction: rtl;"> انتخاب ساعت </option>
+							<option value="option2" style="direction: rtl;">9-10 </option>
+							<option value="option3" style="direction: rtl;">10-11 </option>
+							<option value="option4" style="direction: rtl;">14-14:30 </option>
+							<option value="option5" style="direction: rtl;">16:13-17</option>
+							<option value="option6" style="direction: rtl;">17:30-18 </option>
+							<option value="option7" style="direction: rtl;">18:30-19 </option>
+						</select>
+					</div>
+					<div class="card">
+						<h5>دوشنبه</h5>
+						<p>1403/04/11</p>
+						<select>
+							<option value="option1" style="direction: rtl;"> انتخاب ساعت </option>
+							<option value="option2" style="direction: rtl;">9-10 </option>
+							<option value="option3" style="direction: rtl;">10-11 </option>
+							<option value="option4" style="direction: rtl;">14-15 </option>
+							<option value="option5" style="direction: rtl;">16:13-17</option>
+							<option value="option6" style="direction: rtl;">17-18 </option>
+							<option value="option7" style="direction: rtl;">18:30-19 </option>
+						</select>
+					</div>
+					<div class="card">
+						<h5>یکشنبه</h5>
+						<p>1403/04/10</p>
+						<select>
+							<option value="option1" style="direction: rtl;"> انتخاب ساعت </option>
+							<option value="option2" style="direction: rtl;">9-10 </option>
+							<option value="option3" style="direction: rtl;">10-11 </option>
+							<option value="option4" style="direction: rtl;">14-15 </option>
+							<option value="option5" style="direction: rtl;">16:13-17</option>
+							<option value="option6" style="direction: rtl;">17-18 </option>
+							<option value="option7" style="direction: rtl;">18:30-19 </option>
+						</select>
+					</div>
+					<div class="card">
+						<h5>شنبه</h5>
+						<p>1403/04/09</p>
+						<select>
+							<option value="option1" style="direction: rtl;"> انتخاب ساعت </option>
+							<option value="option2" style="direction: rtl;">9-10 </option>
+							<option value="option3" style="direction: rtl;">10-11 </option>
+							<option value="option4" style="direction: rtl;">14-15 </option>
+							<option value="option5" style="direction: rtl;">16:13-17</option>
+							<option value="option6" style="direction: rtl;">17-18 </option>
+							<option value="option7" style="direction: rtl;">18:30-19 </option>
+						</select>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -67,13 +169,14 @@
 <script src="Persian-Jalali-Calendar-Data-Picker-Plugin-With-jQuery-kamaDatepicker/dist/kamadatepicker.min.js"></script>
 <script>
 	let options = {
-		twodigit : false,
-		closeAterSelect : false,
-		highlightSelectedDay : true,
-		forceFarsiDigits : true,
+		twodigit: false,
+		closeAterSelect: false,
+		highlightSelectedDay: true,
+		forceFarsiDigits: true,
 		// nextButtonIcon : "./Persian-Jalali-Calendar-Data-Picker-Plugin-With-jQuery-kamaDatepicker/demo/timeir_next.png",
 		// previousButtonIcon : "./Persian-Jalali-Calendar-Data-Picker-Plugin-With-jQuery-kamaDatepicker/demo/timeir_prev.png",
 	}
 	kamaDatepicker('datepickerinput');
 </script>
+
 </html>
