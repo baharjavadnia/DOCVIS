@@ -1,8 +1,51 @@
+
 * {
-	font-weight: normal;
-	font-style: normal;
-	font-family: 'Estedad', 'Vazir';
+    font-family: 'Vazirmatn' , 'Estedad', 'Dana' ;
 }
+
+body {
+    background: rgb(219, 224, 234);
+
+}
+/* react modal */
+.react{
+    .btn{
+        background-color: rgb(17, 69, 111);
+        border: none;
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;}
+      * {
+        font-weight: normal;
+        font-style: normal;
+        font-family: 'Estedad', 'Vazir';
+        place-items: center;
+        margin-top: 2%;
+        margin-right: 1%;
+    }
+    .container{
+      display: grid;
+      place-items: center; 
+      height: 100%;
+    }
+    direction: rtl;
+    .btn-close{
+      margin-right: 5%;
+      margin-top: 5%;
+    }
+    .bx{
+      display: grid;
+      place-items: center; 
+      color: #00ff44;
+      font-size: 600%;
+      .modal-title{
+        color: #272728;
+        margin-top: 7%;
+      }
+    }
+  }
+
 
 /* the back option */
 .back-text {
@@ -28,8 +71,9 @@
 
 .card {
 	width: 100%;
-	border-radius: 10rem;
+	border-radius: 2%;
 	padding: 2rem;
+    margin: 0;
 }
 
 .title-row {
@@ -78,7 +122,7 @@ label {
       min-height: 150px; 
       background-color: #e2e6f6;
       border: 1px solid #ddd;
-      margin-bottom: 10px;
+      margin-bottom: 5%;
 	  margin-top: 1%;
 	  margin-left: 1%;
 	  margin-right: 1%;
@@ -101,3 +145,11 @@ label {
   .container-dp{
 	margin-right: 1%;
   }
+  .ratings i {
+    color: rgb(255, 213, 0)}
+    
+    .docinfo{
+        direction: rtl;
+        margin-right: 1%;
+    }
+
