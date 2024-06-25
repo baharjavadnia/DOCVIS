@@ -10,35 +10,53 @@
     </head>
     <body>
 
-        <div class="d-flex justify-content-center align-items-center container">
-            <div class="card py-5 px-3">
-                <h3 class="text-primary d-flex justify-content-center">ورود به داک‌ویز</h3>
-                <span class="mobile-text mt-3">برای استفاده از خدمات داک‌ویز، نام و شماره موبایل خود را وارد کنید</span>
-                <!-- <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text" id="basic-addon1"><i class='bx bxs-user'></i></span>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="#">
+                    <h1>ثبت‌نام</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class='bx bxl-google'></i></a>
+                        <a href="#" class="social"><i class='bx bxl-instagram-alt' ></i></i></a>
+                        <a href="#" class="social"><i class='bx bxl-facebook-circle' ></i></a>
                     </div>
-                    <input type="text" class="form-control w-100 mt-4 text-end" placeholder="نام و نام خانوادگی" autofocus="" aria-label="Username" aria-describedby="basic-addon1"> -->
-                    <!-- Name iput -->
-                    <div class="input-group mb-3">
-                    <input type="text" class="form-control w-100 mt-4 text-end" placeholder="نام و نام خانوادگی" autofocus="">
-                </div>
-                <!-- <div class="input-group mb-3">
-                    <div class="input-group-prepend d-flex flex-row mt-1">
-                      <span class="input-group-text" id="basic-addon1"><i class='bx bxs-phone'></i></span>
+                    <span>یا از طریق ایمیل وارد شوید</span>
+                    <input type="text" placeholder="نام و نام خانوادگی" />
+                    <input type="email" placeholder="ایمیل" />
+                    <input type="password" placeholder="رمز عبور" />
+                    <button><a href="index.html">ثبت‌نام</a></button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1>ورود</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class='bx bxl-google'></i></a>
+                        <a href="#" class="social"><i class='bx bxl-instagram-alt' ></i></i></a>
+                        <a href="#" class="social"><i class='bx bxl-facebook-circle' ></i></a>
                     </div>
-                    <input type="text" class="form-control w-100 mt-4 text-end" placeholder="0912*******" autofocus="" aria-label="Phone" aria-describedby="basic-addon1"> -->
-                <div class="d-flex flex-row mt-1">
-                    <input type="tel" class="form-control w-100 text-end" id="tel-input" placeholder="0912****" autofocus="">
+                    <span>یا از حساب‌های خود استفاده کنید</span>
+                    <input type="email" placeholder="ایمیل" />
+                    <input type="password" placeholder="رمز عبور" />
+                    <a href="#">رمز خود را فراموش کرده‌اید؟ </a>
+                    <button><a href="index.html">ورود</a></button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>داک‌ویزی عزیز، خوش آمدید!</h1>
+                        <p>برای ارتباط بهتر با ما لطفا با اطلاعات خود وارد شوید</p>
+                        <button class="ghost" id="signIn">ورود</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>سلام، دوست عزیز!</h1>
+                        <p>اطلاعاتت رو وارد کن و به داک‌ویز بپیوند!</p>
+                        <button class="ghost" id="signUp">ورود</button>
+                    </div>
                 </div>
-                <div id="countdowntimer"></div>
-                <button type="submit" class="btn btn-primary w-100 mt-4" id="submit-button">ارسال کد تایید</button>
-                <div class="text-center mt-5"></div>
             </div>
         </div>
-    </div>
 <script src="loginjava.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
 

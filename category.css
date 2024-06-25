@@ -328,7 +328,6 @@ body {
   /* end footer */
 
   /* header */
-  bahar J, [23/06/2024 07:30 ب.ظ]
 .header-area {
   left: 0;
   right: 0;
@@ -501,6 +500,7 @@ body {
   padding: 0px 0px 0px 0px;
   position: relative;
   text-transform: capitalize;
+  text-decoration: none;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -553,7 +553,6 @@ body {
   transition: 0.3s;
 }
 
-bahar J, [23/06/2024 07:30 ب.ظ]
 .header-area .main-header-area .main-menu ul li a:hover::before {
   opacity: 1;
   transform: scaleX(1);
@@ -700,6 +699,7 @@ bahar J, [23/06/2024 07:30 ب.ظ]
   font-size: 15px;
   color: #C7C7C7;
   margin-right: 12px;
+  text-decoration: none;
 }
 
 

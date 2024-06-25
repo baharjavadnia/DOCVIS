@@ -827,7 +827,7 @@ h3 {
   z-index: 9;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .header-area {
     padding-top: 0;
@@ -852,7 +852,7 @@ h3 {
   text-align: left;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .header-area .main-header-area .logo-img {
     text-align: left;
@@ -873,10 +873,10 @@ h3 {
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .header-area .main-header-area .logo-img img {
-    width: 70px;
+    width: 5rem;
   }
 }
 
@@ -1139,7 +1139,7 @@ h3 {
   background: rgba(255, 255, 255, 0.96);
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and(max-width: 767px) {
 
   .header-area .main-header-area.sticky {
     padding: 10px 10px;
@@ -1178,7 +1178,7 @@ h3 {
   background: #F5FBFF;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and(max-width: 767px) {
 
   .header-area .header-top_area .social_media_links {
     text-align: center;
@@ -1247,15 +1247,15 @@ h3 {
 
 
 .slider_area .single_slider {
-  height: 700px;
+  height: 35rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
   .slider_area .single_slider {
-    height: 420px;
+    height: 30rem;
   }
 }
 
@@ -1267,7 +1267,7 @@ h3 {
   transform: translateY(-90px);
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .slider_area .single_slider .slider_text h4 {
     font-size: 33px;
@@ -1327,7 +1327,7 @@ h3 {
   text-align: right;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .welcome_docmed_area {
     padding-bottom: 100px;
@@ -1362,7 +1362,7 @@ h3 {
   width: 60%;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .welcome_docmed_area .welcome_thumb .thumb_1 img {
     width: 100%;
@@ -1378,7 +1378,7 @@ h3 {
   width: 300px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .welcome_docmed_area .welcome_thumb .thumb_2 {
     position: absolute;
@@ -1414,7 +1414,7 @@ h3 {
   padding-left: 90px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .welcome_docmed_area .welcome_docmed_info {
     padding-left: 0;
@@ -1460,14 +1460,14 @@ h3 {
   margin-bottom: 10px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .welcome_docmed_area .welcome_docmed_info h5 {
     font-size: 30px;
   }
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .welcome_docmed_area .welcome_docmed_info h5 br {
     display: none;
@@ -1517,7 +1517,7 @@ h3 {
 
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .business_expert_area {
     padding-bottom: 50px;
@@ -1553,7 +1553,7 @@ h3 {
   margin-bottom: 0;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .business_expert_area .business_thumb {
     padding-top: 20px;
@@ -1575,7 +1575,7 @@ h3 {
   width: 33.3333333334%;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
   .business_expert_area .business_tabs_area .nav .nav-item {
     width: 100%;
   }
@@ -1589,7 +1589,7 @@ h3 {
   padding: 35px 0px 35px 40px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 767px) {
 
   .business_expert_area .business_tabs_area .nav .nav-item a {
     padding: 10px;
