@@ -1,10 +1,8 @@
-* {
-  font-family: 'Vazir','Estedad';
-}
+
 
 body {
   background: rgb(219, 224, 234);
-
+  font-family: 'Vazir','Estedad';
 }
 
 /* react modal */
